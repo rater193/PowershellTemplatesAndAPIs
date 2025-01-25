@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "PowerShell",
+            "request": "launch",
+            "name": "Debug Specific Script",
+            "script": "${workspaceFolder}/test.ps1",  // Update this to your script's path
+            "args": [],  // Optional: Add arguments for your script if needed
+            "cwd": "${workspaceFolder}",  // Optional: Set the working directory
+            "noDebug": false  // Set to true if you want to run without debugging
+        }
+    ]
+}
